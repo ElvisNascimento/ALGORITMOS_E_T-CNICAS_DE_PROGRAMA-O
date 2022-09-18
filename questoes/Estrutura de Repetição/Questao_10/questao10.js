@@ -6,5 +6,5 @@ let multiplicacaoDosNumeros = 1;
 for(i = A; i >= 1; i--)
 {
     multiplicacaoDosNumeros *= i;
-    console.log(multiplicacaoDosNumeros,'X');
+    document.write(multiplicacaoDosNumeros,' X ');
 }
