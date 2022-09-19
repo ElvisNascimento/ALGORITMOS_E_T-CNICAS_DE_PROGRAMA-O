@@ -9,5 +9,5 @@
 
 
 
-document.write('NÃO FIZ PQ NAO ENTENDI OS CALCULOS ASPAS');
+document.write('');
 

@@ -13,4 +13,4 @@
 //     pa = i;
 //     document.write('P.A => ',pa,'<br>');
 // }
-document.write('FIZ MAIS NAO ENTENDI COMO FIZ PQ OLHEI PELA INTERNET E ENTÃO NAO COMPREENDI ASPAS');
+document.write('');
