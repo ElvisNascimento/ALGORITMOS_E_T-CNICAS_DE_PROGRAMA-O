@@ -3,11 +3,13 @@
 
 
 
-// let a1 = 2;
-// let razaoR = 3;
-// let a10 = razaoR * ( razaoR * 10);
+let pTermo = 1;
+let qRazao = 2;
+let nTermo = 1000;
 
-
-
-document.write('');
+//formula:  T2 = T1 * Q;
+for(i=pTermo;i < nTermo; i *= qRazao)
+{
+    document.write('i :', i,'<br>');
+}
 

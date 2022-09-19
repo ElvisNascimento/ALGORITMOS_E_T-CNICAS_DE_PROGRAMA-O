@@ -2,15 +2,12 @@
 // P.A. contendo 10 valores.
 
 
-// let valorInicialA = 2; //primeiro termo;
-// let razaoR = 3;  //razao;
-// let pa= 0; //progressaoAritimetica;
+let pTermo = 1;
+let qRazao = 2;
+let nTermo = 20;
 
-// let decimoTermo = valorInicialA + (10 - 1) * razaoR;// formula para adiquirir o decimo valor
-
-// for(i = valorInicialA; i < decimoTermo + razaoR ;i += razaoR )
-// {
-//     pa = i;
-//     document.write('P.A => ',pa,'<br>');
-// }
-document.write('');
+//formula:  T2 = T1 + Q;
+for(i=pTermo;i < nTermo; i += qRazao)
+{
+    document.write('i :', i,'<br>');
+}

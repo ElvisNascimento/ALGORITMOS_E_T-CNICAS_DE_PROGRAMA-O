@@ -11,12 +11,11 @@ const alturaPessoas = [
 
 
 let maiorAltura = 0;//setei o valor inicial 0 pra ser menor que as alturas na hora de comparar
-let menorAltura = 10;//setei um lavor mais alto que as alturas pra ter com o que ser comparado
+let menorAltura = 10;//setei um valor mais alto que as alturas pra ter com o que ser comparado
 
 
 for(i = 0; i < alturaPessoas.length;i++)
 {
-
     if( alturaPessoas[i] > maiorAltura)
     {
         maiorAltura = alturaPessoas[i];
